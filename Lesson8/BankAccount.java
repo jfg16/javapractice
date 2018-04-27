@@ -5,13 +5,14 @@
  * 
  * Author:      Jonathan Garcia
  * 
- * Program Description:  <ENTER A DESCRIPTION>  
+ * Program Description:  Create a bank account application, using the top down function method 
  * 
- * Input:       <ENTER A INPUT INFORMATION>  
+ * Input:       balance, deposit, withdrawal, account number, menu choice 
  *
- * Output:      <ENTER A OUTPUT INFORMATION>  
+ * Output:      balance, account number  
  *
- * Processing:  <ENTER A PROCESSING INFORMATION>  
+ * Processing:  Store acctnum, call functions (at times with variables), calculate new balance after withdrawal/deposit, store new balance, loop bank options until exited
+ *                
  * **********************************************************************************************/
 
 import java.util.Scanner;
