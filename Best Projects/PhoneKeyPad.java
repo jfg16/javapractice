@@ -28,7 +28,7 @@ public class PhoneKeyPad {
         
         //display & ask
         System.out.println("\nWelcome to the Phone Key Pad translator!");
-        System.out.print("\nEnter an uppercase letter: ");
+        System.out.print("\nEnter one uppercase letter: ");
         
         //read letter
         letter = input.next().toUpperCase().charAt(0);
@@ -78,7 +78,7 @@ public class PhoneKeyPad {
                     number = 9;
                     break;
                 default:
-                    System.out.println( letter + " is an invalid input");
+                    System.out.println("\n" + letter + " is an invalid input");
         }//end of switch
         
         //display corresponding letter
